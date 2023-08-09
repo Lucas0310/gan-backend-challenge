@@ -4,7 +4,8 @@
   "description": "GAN Integrity backend code challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start-client": "node index.js",
+    "start-server": "node server.js",
     "debug": "nodemon server.js"
   },
   "author": "GAN Integrity",
